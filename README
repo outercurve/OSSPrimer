@@ -1,0 +1,12 @@
+The project is generating an open source software primer for executives.  We seem to be seeing a second wave of interest, enthusiasm, and fear about free and open source software.  It's time to pull together a basic primer to get the next set of decision makers over the How & Why of it.  
+
+This book source is _asciidoc_ and we're using the _asciidoc_ tool chain.   
+
+Websites, tools, references, etc. can be found: 
+
+* The http://asciidoc.org/[_Official Ascii Doc site_]. This site contains references, cheat sheets, templates, and how-to documentation on installing and running the tool chain (asciiidoc.py, et al). 
+* The http://powerman.name/doc/asciidoc[AsciiDoc Cheatsheet].
+* The http://www.methods.co.nz/asciidoc/userguide.html[AsciiDoc User Guide].
+* The http://asciidoc.org/INSTALL.html[AsciiDoc Installation Process].
+* I actually found this to be an enormously helpful Mac OS X site for installing asciidoc and its brethren: http://www.ladysign-apps.com/developer/environment/install-asciidoc-on-the-commandline-mac-osx/[http://www.ladysign-apps.com/developer/environment/install-asciidoc-on-the-commandline-mac-osx/]
+
