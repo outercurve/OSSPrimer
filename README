@@ -4,23 +4,18 @@ This book source is AsciiDoc and we're using the AsciiDoc tool chain.
 
 The primary file is OSSPrimer.asc and it pulls all other chapter/content files in as needed.  The convention is to name chapter files for content (e.g. Freeloaders.asc) rather than something like "Chapter1.asc".  The project uses .asc instead of .txt for the AsciiDoc source files.  Images are all tucked in the images directory.
 
-Once you have a working AsciiDoc toolchain, one should be able to clone the repository, then utter
+Once you have a working AsciiDoc toolchain installed, one should be able to clone the repository, then utter the following at a command line prompt. 
 
-```
-$ asciidoc OSSPrimer.asc   # and receive an OSSPrimer.html for one's punishment.
-```
+	$ asciidoc OSSPrimer.asc   # and receive an OSSPrimer.html for one's punishment.
 
 Likewise, one can produce other outputs using a2x.
 
-```
-$ a2x -f pdf OSSPrimer.asc     # should produce the pdf file.
-$ a2x -f epub OSSPrimer.asc    # should produce the epub file.
-```
+	$ a2x -f pdf OSSPrimer.asc     # should produce the pdf file.
+	$ a2x -f epub OSSPrimer.asc    # should produce the epub file.
 
 I have discovered problems in my current Mac OS X toolchain producing "good" epub and pdf and have taken to using the verbose and no-xmllint qualifiers.  
-```
-$ a2x --verbose --no-xmllint -f pdf OSSPrimer.asc 
-```
+
+	$ a2x --verbose --no-xmllint -f pdf OSSPrimer.asc 
 
 Websites, tools, references, etc. can be found: 
 
